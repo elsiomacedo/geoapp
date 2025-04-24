@@ -1,0 +1,14 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.vecpk/Scripts/python.exe",    
+  "terminal.integrated.profiles.windows": {
+    "PowerShell com .vecpk": {
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": [
+        "-NoExit",
+        "-Command",
+        "& '${workspaceFolder}/.vecpk/Scripts/Activate.ps1'; function global:prompt { Write-Host \"(.vecpk)\" -ForegroundColor Green -NoNewline; \" `n#> \" }"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell com .vecpk"
+}

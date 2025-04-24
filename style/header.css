@@ -1,0 +1,30 @@
+.header_side {
+    margin-top: -35px;
+    color: #696969;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+}
+
+.hr {
+    margin-top: -15px;
+    border: 1px solid #ccc;
+}
+
+.sidebar {
+    margin: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #007BFF;
+}

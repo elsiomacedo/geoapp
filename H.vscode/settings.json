@@ -1,0 +1,14 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/.vehom/Scripts/python.exe",    
+    "terminal.integrated.profiles.windows": {
+      "PowerShell com .vehom": {
+        "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "args": [
+            "-NoExit",
+            "-Command",
+             "& '${workspaceFolder}/.vehom/Scripts/Activate.ps1'; function global:prompt { Write-Host \"(.vehom)\" -ForegroundColor Green -NoNewline; \" `n#> \" }"
+        ]
+      }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell com .vehom"
+  }

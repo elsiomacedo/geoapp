@@ -1,0 +1,9 @@
+numpy
+openpyxl
+pandas
+plotly
+streamlit-aggrid
+streamlit
+streamlit_extras
+streamlit_javascript
+streamlit_tags
